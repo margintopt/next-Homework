@@ -1,0 +1,24 @@
+.wrapper {
+  position: relative;
+}
+
+.zoom {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+  border: 1px dashed #eee;
+  background-color: #aaa;
+  opacity: 0.6;
+}
+
+.content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}

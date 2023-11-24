@@ -1,0 +1,23 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cell {
+  width: 15px;
+  height: 50px;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  border-left: 1px solid #eee;
+  border-top: 1px solid #eee;
+  transition: all 0.2s ease-out;
+}
+
+.hover {
+  background: #acc8da;
+}
+
+.active {
+  background: #5ea4ce;
+}
