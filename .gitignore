@@ -17,8 +17,6 @@ run
 dist
 .nyc_output
 config.local.js
-.umi
-.umi-production
 .idea/
 .cache
 yarn.lock
@@ -44,30 +42,17 @@ speed-measure-plugin*.json
 .settings/
 *.sublime-workspace
 
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
 # misc
-/.sass-cache
 /connect.lock
 /coverage
 /libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
 /typings
 
 # System Files
-.DS_Store
 Thumbs.db
 *.lock
 .vs/
 
-/ngx-tslint-report
 debug.log
-/.angular
+/.next
+package-lock.json
